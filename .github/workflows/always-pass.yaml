@@ -1,4 +1,4 @@
-name: Always pass 
+name: Volkswagen tests 
 on: [pull_request]
 jobs:
   always-pass:
