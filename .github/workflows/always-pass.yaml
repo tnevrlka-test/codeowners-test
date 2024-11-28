@@ -4,7 +4,7 @@ jobs:
   always-pass:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Wait 60 seconds, then pass"
-      - run: sleep 60
+      - run: echo "Wait 10 seconds, then pass"
+      - run: sleep 10
       - run: echo "Finished waiting, exiting..."
       - run: exit 0
